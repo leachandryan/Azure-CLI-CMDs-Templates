@@ -1,6 +1,8 @@
-
-
 #---------------------- Service Principals and Role Assignment
+
+#A service principal in Azure is an identity created for an application to securely access resources. 
+#It’s like a user account but for apps, with specific permissions assigned, ensuring secure, 
+#limited access without using personal credentials.
 
 #List all service principals
 az ad sp list --query "[].{Name:displayName, AppId:appId, ObjectId:objectId}"
