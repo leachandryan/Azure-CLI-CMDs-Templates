@@ -1,0 +1,14 @@
+{
+  "Name": "VM Start Role",
+  "IsCustom": true,
+  "Description": "Can start stopped VMs.",
+  "Actions": [
+    "Microsoft.Compute/virtualMachines/start/action"
+  ],
+  "NotActions": [],
+  "AssignableScopes": [
+    "/subscriptions/<SubscriptionID>/resourceGroups/<ResourceGroup1>",
+    "/subscriptions/<SubscriptionID>/resourceGroups/<ResourceGroup2>"
+    // Add additional resource groups as needed
+  ]
+}
